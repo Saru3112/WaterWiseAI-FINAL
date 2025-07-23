@@ -41,7 +41,11 @@ const Names = {
   'LOWER PERIYAR': 'Pambla',
   'MOOZHIYAR': 'Moozhiyar',
   'KALLAR': 'Kallar',
-  'SENGULAM (PUMPING STORAGE DAM)': 'Chenkulam'
+  'SENGULAM (PUMPING STORAGE DAM)': 'Chenkulam',
+  'MULLAPERIYAR': 'Mullaperiyar',           // Add more below as needed
+  'PALLIVASAL': 'Pallivasal',
+  'KAKKAD': 'Kakkad',
+  'KUNDALA(PALLIVASAL)': 'Kundala'
 };
 
 const convertFeetToMeters = (value) => {
@@ -57,6 +61,7 @@ async function fetchDamData(url) {
     const response = await axios.get(url);
     const $ = cheerio.load(response.data);
     const dams = [];
+    const unmappedDams = [];
 
     $('table tr').slice(1).each((_, row) => {
       const columns = $(row).find('td');
@@ -66,7 +71,10 @@ async function fetchDamData(url) {
       const normalized = damName.toUpperCase();
       const displayName = Names[normalized];
 
-      if (!displayName) return;
+      if (!displayName) {
+        unmappedDams.push(normalized);
+        return;
+      }
 
       const damKey = displayName.toLowerCase();
       const coord = damCoordinates[damKey] || {};
@@ -86,6 +94,10 @@ async function fetchDamData(url) {
 
       dams.push(dam);
     });
+
+    if (unmappedDams.length) {
+      console.log("⚠️ Skipped dams (unmapped):", [...new Set(unmappedDams)]);
+    }
 
     return { lastUpdate: dams[0]?.date || 'Unknown', dams };
   } catch (error) {
