@@ -9,6 +9,10 @@ jobs:
   update:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./Backend
+
     steps:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v3
@@ -20,11 +24,9 @@ jobs:
 
       - name: 📦 Install Dependencies
         run: npm install
-        working-directory: ./Backend  # ✅ This line assumes package.json is inside Backend/
 
       - name: 🚀 Run Dam Scraper
         run: node dam_details_fetcher.js
-        working-directory: ./Backend  # ✅ This is key to avoid the "no such file" error
 
       - name: ✅ Commit & Push Changes
         run: |
@@ -33,4 +35,3 @@ jobs:
           git add live.json historic_data/
           git commit -m "📊 Auto-update dam data on $(date +'%d-%m-%Y')" || echo "No changes to commit"
           git push
-        working-directory: ./Backend  # ✅ Again, ensure this points to where live.json is
