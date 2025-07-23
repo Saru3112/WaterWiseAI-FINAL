@@ -2,12 +2,16 @@ name: 🌀 Auto Update Dam Data
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Every day at 6 AM UTC (11:30 AM IST)
-  workflow_dispatch:
+    - cron: '0 6 * * *'  # ⏰ Every day at 6 AM UTC (11:30 AM IST)
+  workflow_dispatch:      # ✅ Allow manual trigger from GitHub UI
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./Backend   # ✅ Make sure this matches your repo folder
 
     steps:
       - name: 📥 Checkout Repository
@@ -28,6 +32,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add live.json historic_data/
+          git add live.json
           git commit -m "📊 Auto-update dam data on $(date +'%d-%m-%Y')" || echo "No changes to commit"
           git push
