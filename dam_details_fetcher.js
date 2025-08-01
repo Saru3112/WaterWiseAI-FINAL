@@ -58,6 +58,13 @@ async function fetchDamData(postUrl) {
     const damInfo = damMeta[rawName];
     if (!damInfo) return;
 
+    const rawStatus = $(td[9]).text().trim() || "Normal";
+
+    let statusColor = "green";
+    if (/red/i.test(rawStatus)) statusColor = "red";
+    else if (/orange/i.test(rawStatus)) statusColor = "orange";
+    else if (/alert/i.test(rawStatus)) statusColor = "orange";
+
     dams.push({
       name: damInfo.name,
       date: date || new Date().toISOString().split('T')[0],
@@ -65,7 +72,8 @@ async function fetchDamData(postUrl) {
       inflow: parseFloat($(td[11]).text()) || null,
       outflow: parseFloat($(td[12]).text()) || null,
       rainfall: parseFloat($(td[13]).text()) || null,
-      status: $(td[9]).text().trim() || "Normal",
+      status: rawStatus,
+      statusColor: statusColor, // ✅ Add class for UI
       frl: convertFeet($(td[3]).text()),
       mwl: convertFeet($(td[4]).text()),
       lat: damInfo.lat,
