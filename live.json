@@ -1,15 +1,15 @@
 {
-  "lastUpdate": "05.08.2025",
+  "lastUpdate": "06.08.2025",
   "dams": [
     {
       "id": "1",
       "name": "Idukki",
-      "date": "05.08.2025",
-      "level": 724.51,
-      "inflow": 11.7,
-      "outflow": 135.41,
-      "rainfall": 9.59,
-      "status": "1033.56",
+      "date": "06.08.2025",
+      "level": 724.56,
+      "inflow": 11.78,
+      "outflow": 136.31,
+      "rainfall": 9.38,
+      "status": "1035.84",
       "frl": 732.43,
       "mwl": 726.5,
       "lat": 9.8436,
@@ -18,27 +18,27 @@
       "capacity": 1996,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "2377.00 ft",
-          "liveStorage": "1033.56",
-          "storagePercentage": "70.82",
-          "inflow": "11.70",
-          "powerHouseDischarge": "9.59",
+          "date": "06.08.2025",
+          "waterLevel": "2377.16 ft",
+          "liveStorage": "1035.84",
+          "storagePercentage": "70.97",
+          "inflow": "11.78",
+          "powerHouseDischarge": "9.38",
           "spillwayRelease": "–",
-          "totalOutflow": "9.59",
-          "rainfall": "1.60"
+          "totalOutflow": "9.38",
+          "rainfall": "27.80"
         }
       ]
     },
     {
       "id": "2",
       "name": "Idamalayar",
-      "date": "05.08.2025",
-      "level": 48.8,
-      "inflow": 9.86,
-      "outflow": 114.14,
+      "date": "06.08.2025",
+      "level": 48.84,
+      "inflow": 10.12,
+      "outflow": 117.11,
       "rainfall": 6.18,
-      "status": "762.80",
+      "status": "766.72",
       "frl": 51.51,
       "mwl": 49.68,
       "lat": 10.2219,
@@ -47,27 +47,27 @@
       "capacity": 1010,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "160.10",
-          "liveStorage": "762.80",
-          "storagePercentage": "74.95",
-          "inflow": "9.86",
+          "date": "06.08.2025",
+          "waterLevel": "160.24",
+          "liveStorage": "766.72",
+          "storagePercentage": "75.33",
+          "inflow": "10.12",
           "powerHouseDischarge": "6.18",
           "spillwayRelease": "–",
           "totalOutflow": "6.18",
-          "rainfall": "1.40"
+          "rainfall": "18.40"
         }
       ]
     },
     {
       "id": "4",
       "name": "Banasura Sagar",
-      "date": "05.08.2025",
-      "level": 235.87,
-      "inflow": 1.73,
-      "outflow": 20.01,
+      "date": "06.08.2025",
+      "level": 235.88,
+      "inflow": 2.53,
+      "outflow": 29.29,
       "rainfall": 1.01,
-      "status": "179.75",
+      "status": "180.55",
       "frl": 236.4,
       "mwl": 235.92,
       "lat": 11.6709,
@@ -76,27 +76,27 @@
       "capacity": 209,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "773.85",
-          "liveStorage": "179.75",
-          "storagePercentage": "89.43",
-          "inflow": "1.73",
+          "date": "06.08.2025",
+          "waterLevel": "773.90",
+          "liveStorage": "180.55",
+          "storagePercentage": "89.83",
+          "inflow": "2.53",
           "powerHouseDischarge": "1.01",
           "spillwayRelease": "0.72",
           "totalOutflow": "1.73",
-          "rainfall": "0.00"
+          "rainfall": "16.80"
         }
       ]
     },
     {
       "id": "5",
       "name": "Sholayar",
-      "date": "05.08.2025",
-      "level": 811.32,
-      "inflow": 4.45,
-      "outflow": 51.55,
-      "rainfall": 1.93,
-      "status": "145.69",
+      "date": "06.08.2025",
+      "level": 811.38,
+      "inflow": 4.19,
+      "outflow": 48.54,
+      "rainfall": 1.86,
+      "status": "146.26",
       "frl": 811.68,
       "mwl": null,
       "lat": 10.3178,
@@ -105,22 +105,22 @@
       "capacity": 1530,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "2661.80 ft",
-          "liveStorage": "145.69",
-          "storagePercentage": "97.72",
-          "inflow": "4.45",
-          "powerHouseDischarge": "1.93",
-          "spillwayRelease": "5.92",
-          "totalOutflow": "7.85",
-          "rainfall": "1.60"
+          "date": "06.08.2025",
+          "waterLevel": "2662.00 ft",
+          "liveStorage": "146.26",
+          "storagePercentage": "98.10",
+          "inflow": "4.19",
+          "powerHouseDischarge": "1.86",
+          "spillwayRelease": "1.77",
+          "totalOutflow": "3.63",
+          "rainfall": "29.00"
         }
       ]
     },
     {
       "id": "6",
       "name": "Mattupetty",
-      "date": "05.08.2025",
+      "date": "06.08.2025",
       "level": 487.3,
       "inflow": 0.95,
       "outflow": 11,
@@ -134,7 +134,7 @@
       "capacity": 55,
       "data": [
         {
-          "date": "05.08.2025",
+          "date": "06.08.2025",
           "waterLevel": "1598.75",
           "liveStorage": "52.19",
           "storagePercentage": "95.29",
@@ -142,19 +142,19 @@
           "powerHouseDischarge": "0.00",
           "spillwayRelease": "0.95",
           "totalOutflow": "0.95",
-          "rainfall": "10.00"
+          "rainfall": "12.00"
         }
       ]
     },
     {
       "id": "7",
       "name": "Anayirankal",
-      "date": "05.08.2025",
-      "level": 366.94,
-      "inflow": 0.48,
-      "outflow": 5.58,
+      "date": "06.08.2025",
+      "level": 366.98,
+      "inflow": 0.57,
+      "outflow": 6.59,
       "rainfall": null,
-      "status": "36.08",
+      "status": "36.65",
       "frl": 367.9,
       "mwl": null,
       "lat": 10.0095,
@@ -163,27 +163,27 @@
       "capacity": 50,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "1203.88",
-          "liveStorage": "36.08",
-          "storagePercentage": "72.41",
-          "inflow": "0.48",
+          "date": "06.08.2025",
+          "waterLevel": "1204.01",
+          "liveStorage": "36.65",
+          "storagePercentage": "73.55",
+          "inflow": "0.57",
           "powerHouseDischarge": "",
           "spillwayRelease": "–",
           "totalOutflow": "0.00",
-          "rainfall": "20.00"
+          "rainfall": "5.00"
         }
       ]
     },
     {
       "id": "8",
       "name": "Ponmudi",
-      "date": "05.08.2025",
-      "level": 215.23,
-      "inflow": 2.19,
-      "outflow": 25.37,
+      "date": "06.08.2025",
+      "level": 215.22,
+      "inflow": 2.31,
+      "outflow": 26.73,
       "rainfall": 1.76,
-      "status": "43.09",
+      "status": "42.97",
       "frl": 215.72,
       "mwl": null,
       "lat": 9.9604,
@@ -192,27 +192,27 @@
       "capacity": 42,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "706.15",
-          "liveStorage": "43.09",
-          "storagePercentage": "90.90",
-          "inflow": "2.19",
+          "date": "06.08.2025",
+          "waterLevel": "706.10",
+          "liveStorage": "42.97",
+          "storagePercentage": "90.66",
+          "inflow": "2.31",
           "powerHouseDischarge": "1.76",
           "spillwayRelease": "0.66",
-          "totalOutflow": "2.42",
-          "rainfall": "0.00"
+          "totalOutflow": "2.43",
+          "rainfall": "18.00"
         }
       ]
     },
     {
       "id": "9",
       "name": "Kakkayam",
-      "date": "05.08.2025",
-      "level": 230.63,
-      "inflow": 2.94,
-      "outflow": 34.01,
-      "rainfall": 3.17,
-      "status": "30.55",
+      "date": "06.08.2025",
+      "level": 230.71,
+      "inflow": 3.9,
+      "outflow": 45.15,
+      "rainfall": 3.29,
+      "status": "31.16",
       "frl": 231.05,
       "mwl": null,
       "lat": 11.551,
@@ -221,27 +221,27 @@
       "capacity": 136,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "756.67",
-          "liveStorage": "30.55",
-          "storagePercentage": "89.92",
-          "inflow": "2.94",
-          "powerHouseDischarge": "3.17",
+          "date": "06.08.2025",
+          "waterLevel": "756.91",
+          "liveStorage": "31.16",
+          "storagePercentage": "91.71",
+          "inflow": "3.90",
+          "powerHouseDischarge": "3.29",
           "spillwayRelease": "–",
-          "totalOutflow": "3.17",
-          "rainfall": "4.00"
+          "totalOutflow": "3.29",
+          "rainfall": "118.00"
         }
       ]
     },
     {
       "id": "10",
       "name": "Pamba",
-      "date": "05.08.2025",
-      "level": 297.97,
-      "inflow": 1.18,
-      "outflow": 13.66,
+      "date": "06.08.2025",
+      "level": 297.91,
+      "inflow": 1.27,
+      "outflow": 14.73,
       "rainfall": null,
-      "status": "16.03",
+      "status": "15.73",
       "frl": 300.63,
       "mwl": null,
       "lat": 9.3906,
@@ -250,27 +250,27 @@
       "capacity": 37,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "977.60",
-          "liveStorage": "16.03",
-          "storagePercentage": "51.46",
-          "inflow": "1.18",
+          "date": "06.08.2025",
+          "waterLevel": "977.40",
+          "liveStorage": "15.73",
+          "storagePercentage": "50.50",
+          "inflow": "1.27",
           "powerHouseDischarge": "",
           "spillwayRelease": "–",
           "totalOutflow": "0.00",
-          "rainfall": "6.00"
+          "rainfall": "26.00"
         }
       ]
     },
     {
       "id": "11",
       "name": "Poringalkuthu",
-      "date": "05.08.2025",
-      "level": 127.92,
-      "inflow": 27.06,
-      "outflow": 313.24,
-      "rainfall": 4.58,
-      "status": "19.00",
+      "date": "06.08.2025",
+      "level": 127.47,
+      "inflow": 17.03,
+      "outflow": 197.11,
+      "rainfall": 4.76,
+      "status": "15.53",
       "frl": 129.23,
       "mwl": null,
       "lat": 10.3436,
@@ -279,27 +279,27 @@
       "capacity": 328,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "419.70",
-          "liveStorage": "19.00",
-          "storagePercentage": "62.71",
-          "inflow": "27.06",
-          "powerHouseDischarge": "4.58",
-          "spillwayRelease": "25.99",
-          "totalOutflow": "30.56",
-          "rainfall": "0.00"
+          "date": "06.08.2025",
+          "waterLevel": "418.20",
+          "liveStorage": "15.53",
+          "storagePercentage": "51.25",
+          "inflow": "17.03",
+          "powerHouseDischarge": "4.76",
+          "spillwayRelease": "15.74",
+          "totalOutflow": "20.50",
+          "rainfall": "34.40"
         }
       ]
     },
     {
       "id": "12",
       "name": "Kundala",
-      "date": "05.08.2025",
-      "level": 534.34,
+      "date": "06.08.2025",
+      "level": 534.41,
       "inflow": 0.1,
       "outflow": 1.16,
       "rainfall": null,
-      "status": "4.05",
+      "status": "4.15",
       "frl": 536.05,
       "mwl": null,
       "lat": 10.1436,
@@ -308,27 +308,27 @@
       "capacity": 14,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "1753.10",
-          "liveStorage": "4.05",
-          "storagePercentage": "52.94",
+          "date": "06.08.2025",
+          "waterLevel": "1753.30",
+          "liveStorage": "4.15",
+          "storagePercentage": "54.25",
           "inflow": "0.10",
           "powerHouseDischarge": "",
           "spillwayRelease": "–",
           "totalOutflow": "0.00",
-          "rainfall": "2.60"
+          "rainfall": "2.20"
         }
       ]
     },
     {
       "id": "13",
       "name": "Kallarkutty",
-      "date": "05.08.2025",
-      "level": 139.05,
-      "inflow": 10.44,
-      "outflow": 120.84,
+      "date": "06.08.2025",
+      "level": 139.03,
+      "inflow": 10.17,
+      "outflow": 117.72,
       "rainfall": 3.89,
-      "status": "6.22",
+      "status": "6.19",
       "frl": 139.17,
       "mwl": null,
       "lat": 9.98,
@@ -337,27 +337,27 @@
       "capacity": 44,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "456.20",
-          "liveStorage": "6.22",
-          "storagePercentage": "96.72",
-          "inflow": "10.44",
+          "date": "06.08.2025",
+          "waterLevel": "456.15",
+          "liveStorage": "6.19",
+          "storagePercentage": "96.24",
+          "inflow": "10.17",
           "powerHouseDischarge": "3.89",
-          "spillwayRelease": "6.64",
-          "totalOutflow": "10.53",
-          "rainfall": "1.00"
+          "spillwayRelease": "6.32",
+          "totalOutflow": "10.20",
+          "rainfall": "12.00"
         }
       ]
     },
     {
       "id": "14",
       "name": "Erattayar",
-      "date": "05.08.2025",
-      "level": 227.81,
+      "date": "06.08.2025",
+      "level": 227.78,
       "inflow": null,
       "outflow": null,
       "rainfall": null,
-      "status": "1.09",
+      "status": "1.05",
       "frl": 229.94,
       "mwl": null,
       "lat": 9.8103,
@@ -366,10 +366,10 @@
       "capacity": 65,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "747.40",
-          "liveStorage": "1.09",
-          "storagePercentage": "20.63",
+          "date": "06.08.2025",
+          "waterLevel": "747.30",
+          "liveStorage": "1.05",
+          "storagePercentage": "19.89",
           "inflow": "",
           "powerHouseDischarge": "",
           "spillwayRelease": "",
@@ -381,11 +381,11 @@
     {
       "id": "15",
       "name": "Pambla",
-      "date": "05.08.2025",
+      "date": "06.08.2025",
       "level": 77.08,
-      "inflow": 11.98,
-      "outflow": 138.62,
-      "rainfall": 5.98,
+      "inflow": 11.7,
+      "outflow": 135.4,
+      "rainfall": 6.05,
       "status": "4.51",
       "frl": 77.11,
       "mwl": null,
@@ -395,27 +395,27 @@
       "capacity": 23,
       "data": [
         {
-          "date": "05.08.2025",
+          "date": "06.08.2025",
           "waterLevel": "252.90",
           "liveStorage": "4.51",
           "storagePercentage": "99.05",
-          "inflow": "11.98",
-          "powerHouseDischarge": "5.98",
-          "spillwayRelease": "6.00",
-          "totalOutflow": "11.98",
-          "rainfall": "1.00"
+          "inflow": "11.70",
+          "powerHouseDischarge": "6.05",
+          "spillwayRelease": "5.64",
+          "totalOutflow": "11.70",
+          "rainfall": "23.00"
         }
       ]
     },
     {
       "id": "16",
       "name": "Moozhiyar",
-      "date": "05.08.2025",
-      "level": 58.4,
-      "inflow": 3.75,
-      "outflow": 43.44,
-      "rainfall": 3,
-      "status": "1.02",
+      "date": "06.08.2025",
+      "level": 58.22,
+      "inflow": 3.36,
+      "outflow": 38.94,
+      "rainfall": 2.99,
+      "status": "0.94",
       "frl": 58.71,
       "mwl": null,
       "lat": 9.308,
@@ -424,22 +424,22 @@
       "capacity": 90,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "191.60",
-          "liveStorage": "1.02",
-          "storagePercentage": "88.02",
-          "inflow": "3.75",
-          "powerHouseDischarge": "3.00",
-          "spillwayRelease": "0.76",
-          "totalOutflow": "3.76",
-          "rainfall": "2.00"
+          "date": "06.08.2025",
+          "waterLevel": "191.00",
+          "liveStorage": "0.94",
+          "storagePercentage": "80.95",
+          "inflow": "3.36",
+          "powerHouseDischarge": "2.99",
+          "spillwayRelease": "0.46",
+          "totalOutflow": "3.45",
+          "rainfall": "18.00"
         }
       ]
     },
     {
       "id": "17",
       "name": "Kallar",
-      "date": "05.08.2025",
+      "date": "06.08.2025",
       "level": 250.06,
       "inflow": null,
       "outflow": null,
@@ -453,7 +453,7 @@
       "capacity": 14,
       "data": [
         {
-          "date": "05.08.2025",
+          "date": "06.08.2025",
           "waterLevel": "820.40",
           "liveStorage": "0.20",
           "storagePercentage": "26.12",
@@ -468,12 +468,12 @@
     {
       "id": "18",
       "name": "Chenkulam",
-      "date": "05.08.2025",
-      "level": 258.15,
+      "date": "06.08.2025",
+      "level": 258.14,
       "inflow": 1.54,
-      "outflow": 17.78,
+      "outflow": 17.77,
       "rainfall": 1.55,
-      "status": "0.23",
+      "status": "0.21",
       "frl": 258.36,
       "mwl": null,
       "lat": 10.0108,
@@ -482,15 +482,15 @@
       "capacity": 16,
       "data": [
         {
-          "date": "05.08.2025",
-          "waterLevel": "846.95",
-          "liveStorage": "0.23",
-          "storagePercentage": "57.69",
+          "date": "06.08.2025",
+          "waterLevel": "846.90",
+          "liveStorage": "0.21",
+          "storagePercentage": "54.62",
           "inflow": "1.54",
           "powerHouseDischarge": "1.55",
           "spillwayRelease": "–",
           "totalOutflow": "1.55",
-          "rainfall": "1.10"
+          "rainfall": "2.50"
         }
       ]
     }
