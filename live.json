@@ -1,259 +1,140 @@
 {
-<<<<<<< HEAD
   "lastUpdate": "05.08.2025",
-=======
-<<<<<<< HEAD
-  "lastUpdate": "30.07.2025",
-=======
-  "lastUpdate": "04.08.2025",
->>>>>>> 28fff04 (WIP: Save local changes before pull)
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
   "dams": [
     {
       "id": "1",
       "name": "Idukki",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 724.51,
       "inflow": 11.7,
       "outflow": 135.41,
       "rainfall": 9.59,
       "status": "1033.56",
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 724.03,
-      "inflow": 15.4,
-      "outflow": 178.18,
-      "rainfall": 8.17,
-      "status": "1011.42",
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
-      "statusColor": "green",
       "frl": 732.43,
       "mwl": 726.5,
       "lat": 9.8436,
       "lon": 76.9762,
-=======
-      "officialName": "IDUKKI",
-      "MWL": "2403.00 ft",
-      "FRL": "2403.00 ft",
-      "liveStorageAtFRL": "1031.58",
-      "ruleLevel": "2383.53",
-      "blueLevel": "2375.53",
-      "orangeLevel": "2381.53",
-      "redLevel": "2382.53",
-      "latitude": 9.8436,
-      "longitude": 76.9762,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Idukki",
       "capacity": 1996,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "2376.86 ft",
-          "liveStorage": "1031.58",
-          "storagePercentage": "70.68",
-          "inflow": "13.43",
-          "powerHouseDischarge": "8.20",
+          "date": "05.08.2025",
+          "waterLevel": "2377.00 ft",
+          "liveStorage": "1033.56",
+          "storagePercentage": "70.82",
+          "inflow": "11.70",
+          "powerHouseDischarge": "9.59",
           "spillwayRelease": "–",
-          "totalOutflow": "8.20",
-          "rainfall": "22.60"
+          "totalOutflow": "9.59",
+          "rainfall": "1.60"
         }
       ]
     },
     {
       "id": "2",
       "name": "Idamalayar",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 48.8,
       "inflow": 9.86,
       "outflow": 114.14,
       "rainfall": 6.18,
       "status": "762.80",
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 48.48,
-      "inflow": 12.16,
-      "outflow": 140.73,
-      "rainfall": 5.85,
-      "status": "733.12",
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
-      "statusColor": "green",
       "frl": 51.51,
       "mwl": 49.68,
       "lat": 10.2219,
       "lon": 76.706,
-=======
-      "officialName": "IDAMALAYAR",
-      "MWL": "169.00",
-      "FRL": "169.00",
-      "liveStorageAtFRL": "759.16",
-      "ruleLevel": "163.00",
-      "blueLevel": "161.50",
-      "orangeLevel": "162.00",
-      "redLevel": "162.50",
-      "latitude": 10.2219,
-      "longitude": 76.706,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Ernakulam",
       "capacity": 1010,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "159.97",
-          "liveStorage": "759.16",
-          "storagePercentage": "74.59",
-          "inflow": "19.08",
-          "powerHouseDischarge": "6.48",
+          "date": "05.08.2025",
+          "waterLevel": "160.10",
+          "liveStorage": "762.80",
+          "storagePercentage": "74.95",
+          "inflow": "9.86",
+          "powerHouseDischarge": "6.18",
           "spillwayRelease": "–",
-          "totalOutflow": "6.48",
-          "rainfall": "173.00"
+          "totalOutflow": "6.18",
+          "rainfall": "1.40"
         }
       ]
     },
     {
       "id": "4",
       "name": "Banasura Sagar",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 235.87,
       "inflow": 1.73,
       "outflow": 20.01,
       "rainfall": 1.01,
       "status": "179.75",
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 235.76,
-      "inflow": 2.37,
-      "outflow": 27.43,
-      "rainfall": 0.98,
-      "status": "175.35",
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
-      "statusColor": "green",
       "frl": 236.4,
       "mwl": 235.92,
       "lat": 11.6709,
       "lon": 75.9504,
-=======
-      "officialName": "BANASURASAGAR (K A S)",
-      "MWL": "775.60",
-      "FRL": "775.60",
-      "liveStorageAtFRL": "179.75",
-      "ruleLevel": "774.00",
-      "blueLevel": "772.50",
-      "orangeLevel": "773.00",
-      "redLevel": "773.50",
-      "latitude": 11.6709,
-      "longitude": 75.9504,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Wayanad",
       "capacity": 209,
       "data": [
         {
-          "date": "04.08.2025",
+          "date": "05.08.2025",
           "waterLevel": "773.85",
           "liveStorage": "179.75",
           "storagePercentage": "89.43",
-          "inflow": "3.33",
+          "inflow": "1.73",
           "powerHouseDischarge": "1.01",
           "spillwayRelease": "0.72",
           "totalOutflow": "1.73",
-          "rainfall": "9.20"
+          "rainfall": "0.00"
         }
       ]
     },
     {
       "id": "5",
       "name": "Sholayar",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 811.32,
       "inflow": 4.45,
       "outflow": 51.55,
       "rainfall": 1.93,
       "status": "145.69",
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 811.19,
-      "inflow": 3.41,
-      "outflow": 39.41,
-      "rainfall": 1.92,
-      "status": "144.56",
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
-      "statusColor": "green",
       "frl": 811.68,
       "mwl": null,
       "lat": 10.3178,
       "lon": 76.7342,
-=======
-      "officialName": "SHOLAYAR",
-      "MWL": "2663.00 ft",
-      "FRL": "2663.00 ft",
-      "liveStorageAtFRL": "149.09",
-      "ruleLevel": "",
-      "blueLevel": "2658.00",
-      "orangeLevel": "2660.00",
-      "redLevel": "2661.00",
-      "latitude": 10.3178,
-      "longitude": 76.7342,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Thrissur",
       "capacity": 1530,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "2663.00 ft",
-          "liveStorage": "149.09",
-          "storagePercentage": "100.00",
-          "inflow": "5.77",
+          "date": "05.08.2025",
+          "waterLevel": "2661.80 ft",
+          "liveStorage": "145.69",
+          "storagePercentage": "97.72",
+          "inflow": "4.45",
           "powerHouseDischarge": "1.93",
-          "spillwayRelease": "3.56",
-          "totalOutflow": "5.49",
-          "rainfall": "141.00"
+          "spillwayRelease": "5.92",
+          "totalOutflow": "7.85",
+          "rainfall": "1.60"
         }
       ]
     },
     {
       "id": "6",
       "name": "Mattupetty",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 487.3,
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 487.36,
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
       "inflow": 0.95,
       "outflow": 11,
       "rainfall": null,
       "status": "52.19",
-      "statusColor": "green",
       "frl": 487.56,
       "mwl": null,
       "lat": 10.1063,
       "lon": 77.1238,
-=======
-      "officialName": "MADUPETTY",
-      "MWL": "1599.59",
-      "FRL": "1599.59",
-      "liveStorageAtFRL": "52.19",
-      "ruleLevel": "",
-      "blueLevel": "1596.00",
-      "orangeLevel": "1597.00",
-      "redLevel": "1598.00",
-      "latitude": 10.1063,
-      "longitude": 77.1238,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Idukki",
       "capacity": 55,
       "data": [
         {
-          "date": "04.08.2025",
+          "date": "05.08.2025",
           "waterLevel": "1598.75",
           "liveStorage": "52.19",
           "storagePercentage": "95.29",
@@ -261,401 +142,231 @@
           "powerHouseDischarge": "0.00",
           "spillwayRelease": "0.95",
           "totalOutflow": "0.95",
-          "rainfall": "34.00"
+          "rainfall": "10.00"
         }
       ]
     },
     {
       "id": "7",
       "name": "Anayirankal",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 366.94,
       "inflow": 0.48,
       "outflow": 5.58,
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 366.77,
-      "inflow": 0.26,
-      "outflow": 3.04,
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
       "rainfall": null,
       "status": "36.08",
-      "statusColor": "green",
       "frl": 367.9,
       "mwl": null,
       "lat": 10.0095,
       "lon": 77.2072,
-=======
-      "officialName": "ANAYIRANKAL",
-      "MWL": "1207.02",
-      "FRL": "1207.02",
-      "liveStorageAtFRL": "35.60",
-      "ruleLevel": "",
-      "blueLevel": "1205.02",
-      "orangeLevel": "1206.02",
-      "redLevel": "1207.02",
-      "latitude": 10.0095,
-      "longitude": 77.2072,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Idukki",
       "capacity": 50,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "1203.77",
-          "liveStorage": "35.60",
-          "storagePercentage": "71.44",
-          "inflow": "0.57",
+          "date": "05.08.2025",
+          "waterLevel": "1203.88",
+          "liveStorage": "36.08",
+          "storagePercentage": "72.41",
+          "inflow": "0.48",
           "powerHouseDischarge": "",
           "spillwayRelease": "–",
           "totalOutflow": "0.00",
-          "rainfall": "4.00"
+          "rainfall": "20.00"
         }
       ]
     },
     {
       "id": "8",
       "name": "Ponmudi",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 215.23,
       "inflow": 2.19,
       "outflow": 25.37,
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 215.34,
-      "inflow": 3.2,
-      "outflow": 37.02,
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
       "rainfall": 1.76,
       "status": "43.09",
-      "statusColor": "green",
       "frl": 215.72,
       "mwl": null,
       "lat": 9.9604,
       "lon": 77.0565,
-=======
-      "officialName": "PONMUDI",
-      "MWL": "707.75",
-      "FRL": "707.75",
-      "liveStorageAtFRL": "43.32",
-      "ruleLevel": "",
-      "blueLevel": "704.50",
-      "orangeLevel": "705.50",
-      "redLevel": "706.50",
-      "latitude": 9.9604,
-      "longitude": 77.0565,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Idukki",
       "capacity": 42,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "706.25",
-          "liveStorage": "43.32",
-          "storagePercentage": "91.39",
-          "inflow": "2.43",
+          "date": "05.08.2025",
+          "waterLevel": "706.15",
+          "liveStorage": "43.09",
+          "storagePercentage": "90.90",
+          "inflow": "2.19",
           "powerHouseDischarge": "1.76",
           "spillwayRelease": "0.66",
-          "totalOutflow": "2.43",
-          "rainfall": "14.00"
+          "totalOutflow": "2.42",
+          "rainfall": "0.00"
         }
       ]
     },
     {
       "id": "9",
       "name": "Kakkayam",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 230.63,
       "inflow": 2.94,
       "outflow": 34.01,
       "rainfall": 3.17,
       "status": "30.55",
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 230.8,
-      "inflow": 2.04,
-      "outflow": 23.66,
-      "rainfall": 3.34,
-      "status": "31.92",
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
-      "statusColor": "green",
       "frl": 231.05,
       "mwl": null,
       "lat": 11.551,
       "lon": 75.925,
-=======
-      "officialName": "KUTTIYADI (KAKKAYAM)",
-      "MWL": "758.04",
-      "FRL": "758.04",
-      "liveStorageAtFRL": "30.78",
-      "ruleLevel": "",
-      "blueLevel": "755.50",
-      "orangeLevel": "756.50",
-      "redLevel": "757.50",
-      "latitude": 11.551,
-      "longitude": 75.925,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Kozhikode",
       "capacity": 136,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "756.76",
-          "liveStorage": "30.78",
-          "storagePercentage": "90.59",
-          "inflow": "4.72",
-          "powerHouseDischarge": "3.34",
+          "date": "05.08.2025",
+          "waterLevel": "756.67",
+          "liveStorage": "30.55",
+          "storagePercentage": "89.92",
+          "inflow": "2.94",
+          "powerHouseDischarge": "3.17",
           "spillwayRelease": "–",
-          "totalOutflow": "3.34",
-          "rainfall": "191.00"
+          "totalOutflow": "3.17",
+          "rainfall": "4.00"
         }
       ]
     },
     {
       "id": "10",
       "name": "Pamba",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 297.97,
       "inflow": 1.18,
       "outflow": 13.66,
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 299.07,
-      "inflow": 1.35,
-      "outflow": 15.67,
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
       "rainfall": null,
       "status": "16.03",
-      "statusColor": "green",
       "frl": 300.63,
       "mwl": null,
       "lat": 9.3906,
       "lon": 77.1598,
-=======
-      "officialName": "PAMBA",
-      "MWL": "986.33",
-      "FRL": "986.33",
-      "liveStorageAtFRL": "16.56",
-      "ruleLevel": "",
-      "blueLevel": "982.00",
-      "orangeLevel": "983.50",
-      "redLevel": "984.50",
-      "latitude": 9.3906,
-      "longitude": 77.1598,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Pathanamthitta",
       "capacity": 37,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "977.95",
-          "liveStorage": "16.56",
-          "storagePercentage": "53.16",
-          "inflow": "1.76",
+          "date": "05.08.2025",
+          "waterLevel": "977.60",
+          "liveStorage": "16.03",
+          "storagePercentage": "51.46",
+          "inflow": "1.18",
           "powerHouseDischarge": "",
           "spillwayRelease": "–",
           "totalOutflow": "0.00",
-          "rainfall": "60.00"
+          "rainfall": "6.00"
         }
       ]
     },
     {
       "id": "11",
       "name": "Poringalkuthu",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 127.92,
       "inflow": 27.06,
       "outflow": 313.24,
       "rainfall": 4.58,
       "status": "19.00",
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 128.11,
-      "inflow": 16.68,
-      "outflow": 193.02,
-      "rainfall": 4.66,
-      "status": "20.50",
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
-      "statusColor": "green",
       "frl": 129.23,
       "mwl": null,
       "lat": 10.3436,
       "lon": 76.7438,
-=======
-      "officialName": "PORINGALKUTHU",
-      "MWL": "423.98",
-      "FRL": "423.98",
-      "liveStorageAtFRL": "20.75",
-      "ruleLevel": "",
-      "blueLevel": "421.00",
-      "orangeLevel": "422.00",
-      "redLevel": "423.00",
-      "latitude": 10.3436,
-      "longitude": 76.7438,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Thrissur",
       "capacity": 328,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "420.40",
-          "liveStorage": "20.75",
-          "storagePercentage": "68.48",
-          "inflow": "12.93",
-          "powerHouseDischarge": "4.78",
-          "spillwayRelease": "7.02",
-          "totalOutflow": "11.80",
-          "rainfall": "37.00"
+          "date": "05.08.2025",
+          "waterLevel": "419.70",
+          "liveStorage": "19.00",
+          "storagePercentage": "62.71",
+          "inflow": "27.06",
+          "powerHouseDischarge": "4.58",
+          "spillwayRelease": "25.99",
+          "totalOutflow": "30.56",
+          "rainfall": "0.00"
         }
       ]
     },
     {
       "id": "12",
       "name": "Kundala",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 534.34,
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 533.92,
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
       "inflow": 0.1,
       "outflow": 1.16,
       "rainfall": null,
       "status": "4.05",
-      "statusColor": "green",
       "frl": 536.05,
       "mwl": null,
       "lat": 10.1436,
       "lon": 77.1986,
-=======
-      "officialName": "KUNDALA",
-      "MWL": "1758.69",
-      "FRL": "1758.69",
-      "liveStorageAtFRL": "3.95",
-      "ruleLevel": "",
-      "blueLevel": "1755.00",
-      "orangeLevel": "1756.00",
-      "redLevel": "1757.00",
-      "latitude": 10.1436,
-      "longitude": 77.1986,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Idukki",
       "capacity": 14,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "1752.90",
-          "liveStorage": "3.95",
-          "storagePercentage": "51.63",
-          "inflow": "0.20",
+          "date": "05.08.2025",
+          "waterLevel": "1753.10",
+          "liveStorage": "4.05",
+          "storagePercentage": "52.94",
+          "inflow": "0.10",
           "powerHouseDischarge": "",
           "spillwayRelease": "–",
           "totalOutflow": "0.00",
-          "rainfall": "14.40"
+          "rainfall": "2.60"
         }
       ]
     },
     {
       "id": "13",
       "name": "Kallarkutty",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 139.05,
       "inflow": 10.44,
       "outflow": 120.84,
       "rainfall": 3.89,
       "status": "6.22",
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 139.03,
-      "inflow": 11.93,
-      "outflow": 138.08,
-      "rainfall": 3.86,
-      "status": "6.19",
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
-      "statusColor": "green",
       "frl": 139.17,
       "mwl": null,
       "lat": 9.98,
       "lon": 77.0014,
-=======
-      "officialName": "KALLARKUTTY",
-      "MWL": "456.59",
-      "FRL": "456.59",
-      "liveStorageAtFRL": "6.31",
-      "ruleLevel": "",
-      "blueLevel": "",
-      "orangeLevel": "",
-      "redLevel": "455.00",
-      "latitude": 9.98,
-      "longitude": 77.0014,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Idukki",
       "capacity": 44,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "456.35",
-          "liveStorage": "6.31",
-          "storagePercentage": "98.09",
+          "date": "05.08.2025",
+          "waterLevel": "456.20",
+          "liveStorage": "6.22",
+          "storagePercentage": "96.72",
           "inflow": "10.44",
           "powerHouseDischarge": "3.89",
-          "spillwayRelease": "6.37",
-          "totalOutflow": "10.26",
-          "rainfall": "10.00"
+          "spillwayRelease": "6.64",
+          "totalOutflow": "10.53",
+          "rainfall": "1.00"
         }
       ]
     },
     {
       "id": "14",
       "name": "Erattayar",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 227.81,
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 228.02,
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
       "inflow": null,
       "outflow": null,
       "rainfall": null,
       "status": "1.09",
-      "statusColor": "green",
       "frl": 229.94,
       "mwl": null,
       "lat": 9.8103,
       "lon": 77.106,
-=======
-      "officialName": "ERATTAYAR",
-      "MWL": "754.38",
-      "FRL": "754.38",
-      "liveStorageAtFRL": "1.09",
-      "ruleLevel": "",
-      "blueLevel": "",
-      "orangeLevel": "",
-      "redLevel": "748.28",
-      "latitude": 9.8103,
-      "longitude": 77.106,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Idukki",
       "capacity": 65,
       "data": [
         {
-          "date": "04.08.2025",
+          "date": "05.08.2025",
           "waterLevel": "747.40",
           "liveStorage": "1.09",
           "storagePercentage": "20.63",
@@ -670,147 +381,82 @@
     {
       "id": "15",
       "name": "Pambla",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 77.08,
       "inflow": 11.98,
       "outflow": 138.62,
       "rainfall": 5.98,
       "status": "4.51",
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 77.11,
-      "inflow": 19.11,
-      "outflow": 221.16,
-      "rainfall": 6.29,
-      "status": "4.55",
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
-      "statusColor": "green",
       "frl": 77.11,
       "mwl": null,
       "lat": 9.962,
       "lon": 76.9568,
-=======
-      "officialName": "LOWER PERIYAR",
-      "MWL": "253",
-      "FRL": "253",
-      "liveStorageAtFRL": "4.51",
-      "ruleLevel": "",
-      "blueLevel": "",
-      "orangeLevel": "",
-      "redLevel": "252.00",
-      "latitude": 9.962,
-      "longitude": 76.9568,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Ernakulam",
       "capacity": 23,
       "data": [
         {
-          "date": "04.08.2025",
+          "date": "05.08.2025",
           "waterLevel": "252.90",
           "liveStorage": "4.51",
           "storagePercentage": "99.05",
-          "inflow": "14.27",
-          "powerHouseDischarge": "5.57",
-          "spillwayRelease": "8.70",
-          "totalOutflow": "14.27",
-          "rainfall": "53.00"
+          "inflow": "11.98",
+          "powerHouseDischarge": "5.98",
+          "spillwayRelease": "6.00",
+          "totalOutflow": "11.98",
+          "rainfall": "1.00"
         }
       ]
     },
     {
       "id": "16",
       "name": "Moozhiyar",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 58.4,
       "inflow": 3.75,
       "outflow": 43.44,
       "rainfall": 3,
       "status": "1.02",
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 58.41,
-      "inflow": 3.64,
-      "outflow": 42.08,
-      "rainfall": 3.01,
-      "status": "1.03",
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
-      "statusColor": "green",
       "frl": 58.71,
       "mwl": null,
       "lat": 9.308,
       "lon": 77.0656,
-=======
-      "officialName": "MOOZHIYAR",
-      "MWL": "192.63",
-      "FRL": "192.63",
-      "liveStorageAtFRL": "1.02",
-      "ruleLevel": "",
-      "blueLevel": "",
-      "orangeLevel": "",
-      "redLevel": "190.00",
-      "latitude": 9.308,
-      "longitude": 77.0656,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Pathanamthitta",
       "capacity": 90,
       "data": [
         {
-          "date": "04.08.2025",
+          "date": "05.08.2025",
           "waterLevel": "191.60",
           "liveStorage": "1.02",
           "storagePercentage": "88.02",
-          "inflow": "4.00",
-          "powerHouseDischarge": "3.03",
-          "spillwayRelease": "1.06",
-          "totalOutflow": "4.08",
-          "rainfall": "66.00"
+          "inflow": "3.75",
+          "powerHouseDischarge": "3.00",
+          "spillwayRelease": "0.76",
+          "totalOutflow": "3.76",
+          "rainfall": "2.00"
         }
       ]
     },
     {
       "id": "17",
       "name": "Kallar",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 250.06,
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 250.09,
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
       "inflow": null,
       "outflow": null,
       "rainfall": null,
       "status": "0.20",
-      "statusColor": "green",
       "frl": 251.3,
       "mwl": null,
       "lat": 9.8255,
       "lon": 77.1562,
-=======
-      "officialName": "KALLAR",
-      "MWL": "824.48",
-      "FRL": "824.48",
-      "liveStorageAtFRL": "0.20",
-      "ruleLevel": "",
-      "blueLevel": "",
-      "orangeLevel": "",
-      "redLevel": "820.50",
-      "latitude": 9.8255,
-      "longitude": 77.1562,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Idukki",
       "capacity": 14,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "820.50",
+          "date": "05.08.2025",
+          "waterLevel": "820.40",
           "liveStorage": "0.20",
-          "storagePercentage": "26.61",
+          "storagePercentage": "26.12",
           "inflow": "",
           "powerHouseDischarge": "",
           "spillwayRelease": "–",
@@ -822,52 +468,29 @@
     {
       "id": "18",
       "name": "Chenkulam",
-<<<<<<< HEAD
       "date": "05.08.2025",
       "level": 258.15,
       "inflow": 1.54,
       "outflow": 17.78,
       "rainfall": 1.55,
       "status": "0.23",
-=======
-<<<<<<< HEAD
-      "date": "30.07.2025",
-      "level": 258.21,
-      "inflow": 1.43,
-      "outflow": 16.5,
-      "rainfall": 1.41,
-      "status": "0.27",
->>>>>>> 3c5e36c (WIP: Save local changes before pull)
-      "statusColor": "green",
       "frl": 258.36,
       "mwl": null,
       "lat": 10.0108,
       "lon": 77.0325,
-=======
-      "officialName": "SENGULAM",
-      "MWL": "847.64",
-      "FRL": "847.64",
-      "liveStorageAtFRL": "0.24",
-      "ruleLevel": "",
-      "blueLevel": "",
-      "orangeLevel": "",
-      "redLevel": "",
-      "latitude": 10.0108,
-      "longitude": 77.0325,
->>>>>>> 28fff04 (WIP: Save local changes before pull)
       "district": "Idukki",
       "capacity": 16,
       "data": [
         {
-          "date": "04.08.2025",
-          "waterLevel": "847.00",
-          "liveStorage": "0.24",
-          "storagePercentage": "60.51",
-          "inflow": "1.49",
-          "powerHouseDischarge": "1.45",
+          "date": "05.08.2025",
+          "waterLevel": "846.95",
+          "liveStorage": "0.23",
+          "storagePercentage": "57.69",
+          "inflow": "1.54",
+          "powerHouseDischarge": "1.55",
           "spillwayRelease": "–",
-          "totalOutflow": "1.45",
-          "rainfall": "2.30"
+          "totalOutflow": "1.55",
+          "rainfall": "1.10"
         }
       ]
     }
