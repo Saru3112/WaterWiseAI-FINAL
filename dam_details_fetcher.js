@@ -52,7 +52,7 @@ async function fetchDamData(postUrl) {
 
   $('table tr').slice(1).each((_, row) => {
     const td = $(row).find('td');
-    if (td.length < 14) return;
+    if (td.length < 18) return;
 
     const rawName = $(td[1]).text().trim().toUpperCase();
     const damInfo = damMeta[rawName];
@@ -65,26 +65,42 @@ async function fetchDamData(postUrl) {
     else if (/orange/i.test(rawStatus)) statusColor = "orange";
     else if (/alert/i.test(rawStatus)) statusColor = "orange";
 
-    dams.push({
+    const dam = {
+      id: $(td[0]).text().trim(),
       name: damInfo.name,
       date: date || new Date().toISOString().split('T')[0],
       level: convertFeet($(td[5]).text()),
       inflow: parseFloat($(td[11]).text()) || null,
       outflow: parseFloat($(td[12]).text()) || null,
       rainfall: parseFloat($(td[13]).text()) || null,
-      status: rawStatus,
-      statusColor: statusColor, // ✅ Add class for UI
+      status: $(td[9]).text().trim() || "Normal",
       frl: convertFeet($(td[3]).text()),
       mwl: convertFeet($(td[4]).text()),
       lat: damInfo.lat,
       lon: damInfo.lon,
       district: damInfo.district,
-      capacity: damInfo.capacity
-    });
+      capacity: damInfo.capacity,
+      data: [
+        {
+          date: date,
+          waterLevel: $(td[5]).text().trim(),
+          liveStorage: $(td[9]).text().trim(),
+          storagePercentage: $(td[10]).text().trim(),
+          inflow: $(td[11]).text().trim(),
+          powerHouseDischarge: $(td[13]).text().trim(),
+          spillwayRelease: $(td[14]).text().trim(),
+          totalOutflow: $(td[16]).text().trim(),
+          rainfall: $(td[17]).text().trim()
+        }
+      ]
+    };
+
+    dams.push(dam);
   });
 
   return { lastUpdate: date, dams };
 }
+
 
 // Main execution function
 async function updateDamData() {
